@@ -664,10 +664,10 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
-export interface ApiItemItem extends Struct.SingleTypeSchema {
+export interface ApiItemItem extends Struct.CollectionTypeSchema {
   collectionName: 'items';
   info: {
-    displayName: 'Items';
+    displayName: 'item';
     pluralName: 'items';
     singularName: 'item';
   };

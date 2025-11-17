@@ -1,10 +1,10 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "items",
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "Items"
+    "displayName": "item"
   },
   "options": {
     "draftAndPublish": true
