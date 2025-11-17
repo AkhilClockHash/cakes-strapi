@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "Items"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Category": {
+      "type": "string"
+    }
+  }
+}

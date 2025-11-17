@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Valid": {
+      "type": "date"
+    }
+  }
+}
