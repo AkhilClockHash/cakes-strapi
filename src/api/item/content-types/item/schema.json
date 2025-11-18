@@ -14,9 +14,6 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
-      "type": "blocks"
-    },
     "Price": {
       "type": "integer"
     },
@@ -30,8 +27,8 @@
         "audios"
       ]
     },
-    "Category": {
-      "type": "string"
+    "Description": {
+      "type": "text"
     }
   }
 }
